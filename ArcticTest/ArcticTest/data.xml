@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DATA>
+
+  <Position>
+    <DESC>not used</DESC>
+  </Position>
+  <Position>
+    <DESC>a field</DESC>
+  </Position>
+  <Position>
+    <DESC>a woodland glade</DESC>
+  </Position>
+  <Position>
+    <DESC>a dark forest</DESC>
+  </Position>
+  <Position>
+    <DESC>a magical cave</DESC>
+  </Position>
+  <Position>
+    <DESC>a deep hole</DESC>
+  </Position>
+  <Position>
+    <DESC>a small town</DESC>
+  </Position>
+
+  <ROUTES>
+    <START>0</START>
+    <DIR>Up</DIR>
+    <END>0</END>
+    <ENABLED>false</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>1</START>
+    <DIR>South</DIR>
+    <END>2</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>2</START>
+    <DIR>North</DIR>
+    <END>1</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>2</START>
+    <DIR>South</DIR>
+    <END>3</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>3</START>
+    <DIR>North</DIR>
+    <END>2</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>3</START>
+    <DIR>South</DIR>
+    <END>4</END>
+    <ENABLED>false</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>4</START>
+    <DIR>North</DIR>
+    <END>3</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>4</START>
+    <DIR>Down</DIR>
+    <END>5</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>5</START>
+    <DIR>Up</DIR>
+    <END>4</END>
+    <ENABLED>false</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>2</START>
+    <DIR>West</DIR>
+    <END>6</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+  <ROUTES>
+    <START>6</START>
+    <DIR>East</DIR>
+    <END>2</END>
+    <ENABLED>true</ENABLED>
+  </ROUTES>
+
+  <ITEMS>
+    <POS>0</POS>
+    <DESC>not used</DESC>
+    <ENABLED>false</ENABLED>
+  </ITEMS>
+  <ITEMS>
+    <POS>1</POS>
+    <DESC>a bowl of soup</DESC>
+    <ENABLED>true</ENABLED>
+  </ITEMS>
+  <ITEMS>
+    <POS>3</POS>
+    <DESC>a purple dragon</DESC>
+    <ENABLED>true</ENABLED>
+  </ITEMS>
+  <ITEMS>
+    <POS>6</POS>
+    <DESC>a rope</DESC>
+    <ENABLED>true</ENABLED>
+  </ITEMS>
+
+  <ACTIONS>
+    <POS>0</POS>
+    <DESC>not used</DESC>
+    <BUTTON>not used</BUTTON>
+    <RESULT>not used</RESULT>
+    <ITEM>0</ITEM>
+    <ROUTE>0</ROUTE>
+    <ACTION>0</ACTION>
+    <ENDGAME>true</ENDGAME>
+    <ENABLED>false</ENABLED>
+  </ACTIONS>
+  <ACTIONS>
+    <POS>1</POS>
+    <DESC>Get soup</DESC>
+    <BUTTON>GET SOUP</BUTTON>
+    <RESULT>you collected the soup</RESULT>
+    <ITEM>1</ITEM>
+    <ROUTE>2</ROUTE>
+    <ACTION>0</ACTION>
+    <ENDGAME>true</ENDGAME>
+    <ENABLED>true</ENABLED>
+  </ACTIONS>
+  <ACTIONS>
+    <POS>3</POS>
+    <DESC>feed dragon</DESC>
+    <BUTTON>FEED DRAGON</BUTTON>
+    <RESULT>you feed the dragon the soup and he move and you see a cave to the south</RESULT>
+    <ITEM>2</ITEM>
+    <ROUTE>0</ROUTE>
+    <ACTION>5</ACTION>
+    <ENDGAME>true</ENDGAME>
+    <ENABLED>false</ENABLED>
+  </ACTIONS>
+  <ACTIONS>
+    <POS>6</POS>
+    <DESC>get rope</DESC>
+    <BUTTON>GET ROPE</BUTTON>
+    <RESULT>you collected the rope</RESULT>
+    <ITEM>3</ITEM>
+    <ROUTE>4</ROUTE>
+    <ACTION>0</ACTION>
+    <ENDGAME>true</ENDGAME>
+    <ENABLED>true</ENABLED>
+  </ACTIONS>
+  <ACTIONS>
+    <POS>4</POS>
+    <DESC>tie rope</DESC>
+    <BUTTON>TIE ROPE</BUTTON>
+    <RESULT>you tied rope and dropped it into the deep hole </RESULT>
+    <ITEM>3</ITEM>
+    <ROUTE>4</ROUTE>
+    <ACTION>0</ACTION>
+    <ENDGAME>true</ENDGAME>
+    <ENABLED>false</ENABLED>
+  </ACTIONS>
+
+</DATA>
+
+<!--
+
+Positions[0] = new Position("not used");
+            Routes[0] = new Route(0, Direction.Up, 0, false);
+            Items[0] = new Item(0, "not used", false);
+            Actions[0] = new Action(0, "not used", 0, 0, 0, "not used", false, false);
+
+            Positions[1] = new Position("a field");
+            Positions[2] = new Position("a woodland glade");
+            Positions[3] = new Position("a dark forest");
+            Positions[4] = new Position("a magical cave");
+            Positions[5] = new Position("a deep hole");
+            Positions[6] = new Position("a small town");
+
+            Items[1] = new Item(1, "a bowl of soup", true);
+            Items[2] = new Item(3, "a purple dragon", true);
+            Items[3] = new Item(6, "a rope", true);
+
+            Routes[1] = new Route(1, Direction.South, 2, true);
+            Routes[2] = new Route(2, Direction.North, 1, true);
+            Routes[3] = new Route(2, Direction.South, 3, true);
+            Routes[4] = new Route(3, Direction.North, 2, true);
+            Routes[5] = new Route(3, Direction.South, 4, false);
+            Routes[6] = new Route(4, Direction.North, 3, true);
+            Routes[7] = new Route(4, Direction.Down, 5, true);
+            Routes[8] = new Route(5, Direction.Up, 4, false);
+            Routes[9] = new Route(2, Direction.West, 6, true);
+            Routes[10] = new Route(6, Direction.East, 2, true);
+
+            // Action(int po, string de, int it, int ac, int ro, string re)
+            Actions[1] = new Action(1, "get soup", 1, 2, 0, "you collected " + Items[1].desc, true, true);
+            Actions[2] = new Action(3, "feed dragon", 2, 0, 5, "you feed the dragon " + Items[1].desc + " and as he moves away you see " + Positions[3].desc + " to the south", true, false);
+            Actions[3] = new Action(6, "get rope", 3, 4, 0, "you collected " + Items[3].desc, true, true);
+            Actions[4] = new Action(4, "tie rope", 3, 0, 8, "you tied " + Items[3].desc + " to a rock and dropped it into " + Positions[5].desc, true, false);
+
+-->
