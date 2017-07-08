@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/darwin_token_types_2013-11-28.wsdl" filename="darwin_token_types_2013-11-28.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/rtti_2014-02-20_ldb.wsdl" filename="rtti_2014-02-20_ldb.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/wsdl.aspx" filename="wsdl.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/rtti_2007-10-10_ldb_common_types.xsd" filename="RTTI_2007-10-10_ldb_common_types.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/rtti_2012-01-13_ldb_types.xsd" filename="RTTI_2012-01-13_ldb_types.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/rtti_2014-02-20_ldb_types.xsd" filename="RTTI_2014-02-20_ldb_types.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://lite.realtime.nationalrail.co.uk/OpenLDBWS/darwin_token_types_2013-11-28.xsd" filename="darwin_token_types_2013-11-28.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

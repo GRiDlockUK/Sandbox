@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CSVtest1" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="InitialDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\TEMP</Value>
+    </Setting>
+    <Setting Name="TEST" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TEST</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
