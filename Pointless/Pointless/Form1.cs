@@ -19,7 +19,7 @@ namespace Pointless
 
         private void label1_Click(object sender, EventArgs e)
         {
-            tbMain.Text = "label click";
+            tbMain.Text = "label click from master";
         }
 
         private void frmMain_Load(object sender, EventArgs e)
