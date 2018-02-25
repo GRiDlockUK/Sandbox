@@ -19,11 +19,14 @@ namespace Pointless
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            tbMain.Text = "label click";
         }
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            tbMain.Text = "start";
+            tbMain.Text = tbMain.Text + "...";
+            tbMain.Text = tbMain.Text + "...";
 
         }
 
