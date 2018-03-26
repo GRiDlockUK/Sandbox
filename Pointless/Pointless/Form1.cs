@@ -34,5 +34,10 @@ namespace Pointless
         {
             Close();
         }
+
+        private void tbMain_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

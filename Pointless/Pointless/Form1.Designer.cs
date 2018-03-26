@@ -50,6 +50,7 @@
             this.tbMain.Name = "tbMain";
             this.tbMain.Size = new System.Drawing.Size(256, 208);
             this.tbMain.TabIndex = 1;
+            this.tbMain.TextChanged += new System.EventHandler(this.tbMain_TextChanged);
             // 
             // lblEnv
             // 
