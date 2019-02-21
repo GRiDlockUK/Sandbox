@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Xml;
 using System.IO;
 
-namespace UBS_GatewayList
+namespace GatewayList
 {
     public partial class Form1 : Form
     {
