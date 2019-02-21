@@ -8,8 +8,8 @@
     <ProjectGuid>{FE194459-CCF5-490C-8279-F054926A070B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UBS_GatewayList</RootNamespace>
-    <AssemblyName>UBS-GatewayList</AssemblyName>
+    <RootNamespace>GatewayList</RootNamespace>
+    <AssemblyName>GatewayList</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
